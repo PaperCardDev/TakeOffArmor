@@ -1,0 +1,17 @@
+name: TakeOffArmor
+version: '${project.version}'
+main: cn.paper_card.take_off_armor.TakeOffArmor
+api-version: '1.20'
+
+author: Paper99
+
+folia-supported: true
+
+commands:
+  take-off-armor:
+    permission: take-off-armor.command
+    description: 脱下自己的盔甲
+
+permissions:
+  take-off-armor.command:
+    default: true
